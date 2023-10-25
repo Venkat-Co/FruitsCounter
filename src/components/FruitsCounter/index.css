@@ -1,0 +1,62 @@
+/* Write your CSS here */
+
+.main {
+  background-color: #ffd569;
+  background-size: cover;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: #ffffff;
+  background-size: cover;
+  border-radius: 20px;
+  height: 550px;
+  width: 1000px;
+  padding: 30px;
+}
+
+.heading {
+  font-family: Roboto;
+  color: #000000;
+  font-weight: bold;
+  font-size: 40px;
+  text-align: center;
+}
+.count1 {
+  font-family: Roboto;
+  color: #ffd569;
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.card-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
+.img {
+  height: 250px;
+  width: 230px;
+}
+.button {
+  height: 40px;
+  width: 100px;
+  color: #ffffff;
+  background-color: #007bff;
+  border-radius: 5px;
+  border-width: 0px;
+  cursor: pointer;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
